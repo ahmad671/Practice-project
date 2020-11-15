@@ -19,7 +19,6 @@ body{
 } */
 #mynav{
     background-color: #27363b;
-    height: 12%;
 }
 .navbar{
     padding: 0!important;
@@ -29,10 +28,12 @@ body{
     padding: 5px;
 }
 .navbar-brand{
+    padding-top: 0%;
+    padding-bottom: 0%;
     font-family: 'Dancing Script', cursive;
     color: #FEFFFF !important;
     font-weight: bold;
-    font-size: 350%;
+    font-size: 290%;
 }
 #MyMenu li a{
     text-decoration: none;
@@ -64,6 +65,15 @@ body{
     margin-top: -20%;
     margin-left: 10%;
     color: white;
+}
+.txt_overlay h1{
+       font-size: 300%;
+}
+.txt_overlay h6{
+    font-size: 130%;
+}
+.txt_overlay p{
+    font-size: 75%;
 }
 #mainbanner .item img{
     filter: blur(2px);
@@ -159,6 +169,9 @@ section{
 #latest_blogs .btn:hover{
     background-color: #5cc5c2;
 }
+.blogs:hover{
+    box-shadow: 2px 2px 5px 2px #867dff38;
+}
 .comments a{
     float: right;
 }
@@ -213,11 +226,18 @@ section{
     filter: blur(1px);
     width: 100%;
 }
+
 .playicon{
     position: absolute;
-    margin-top: 22%;
-    margin-left: -58%;
-    font-size: 600%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    border-radius: 30%;
+    font-size: 400%;
+}
+.playicon:hover{
+    color: #6aadab;
 }
 .video_text a{
     font-weight: bold;
@@ -235,31 +255,32 @@ section{
     text-align: center;
     font-size: 350%;
     font-weight: bold;
-    margin-bottom: 7%;
+    margin-bottom: 3%;
 }
 #subscribe h1{
     color: black;
     text-align: center;
     font-size: 350%;
     font-weight: bold;
-    margin-bottom: 7%;
-}
-.subscribe_us h2{
-    color: #57918f !important;
-    font-weight: bold;
-    font-size: 300%;
+    margin-bottom: 2%;
 }
 .subbox .form-control{
+    border-radius: 0%;
+    width: 100%;
     height: 50px;
 }
-#subbtn{
+ #subbtn{
     border: none;
     border-radius: 0%;
+    background-color: #6aadab;
     padding: 12px 14px;
+    text-align: center;
     position: absolute;
-    margin-top: -8.5%;
-    margin-left: 77.2%;
+    top: 1px;
+    right: 16px;
+   
 }
+/*
 @media only screen and (max-width: 1198px){
     #subbtn{
         margin-left: 73%;
@@ -277,16 +298,16 @@ section{
         margin-left: 76%;
         margin-top: -9.3%;
     }
-}
-.form{
+} */
+#contact_us .form{
     margin-top: 10%;
     width: 100%;
 }
-.form-control{
+#contact_us .form-control{
     margin-top: 4%;
     border-radius: 0%!important;
 }
-.form button{
+#contact_us .form button{
     margin-top: 4%;
     background-color: #6aadab;
     border: none;
@@ -295,7 +316,7 @@ section{
     text-align: center;
     font-size: 110%;
 }
-.form button:hover{
+#contact_us .form button:hover{
     background-color: #5cc5c2;
 }
 footer{
