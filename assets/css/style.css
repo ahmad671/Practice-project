@@ -424,7 +424,6 @@ footer{
 }
 .footer_headings h1{
     color: #FEFFFF !important;
-    padding-left: 41px;
     margin-top: 20%;
     margin-bottom: 0%;
     font-weight: bold;
@@ -433,6 +432,7 @@ footer{
 .footer_list ul{
     margin-top: 4%;
     margin-bottom: 0%;
+    padding-left: 0%;
     list-style-type:none;
 }
 .footer_list a{
