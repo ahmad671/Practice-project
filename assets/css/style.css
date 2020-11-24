@@ -237,6 +237,10 @@ section{
 .blogs:hover{
     box-shadow: 2px 2px 5px 2px #867dff38;
 }
+#latest_blogs_nav .page-link{
+    color: #2b7a78;
+    font-weight: bold;
+}
 .comments a{
     float: right;
 }
