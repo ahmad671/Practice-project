@@ -4,6 +4,8 @@ $('#mainbanner').owlCarousel({
     nav:false,
     dots:false,
     autoplay:true,
+    mouseDrag:false,
+    touchDrag:false,
     autoplayTimeout:3000,
     responsive:{
         0:{

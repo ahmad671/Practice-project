@@ -4,12 +4,6 @@ html{
 body{
     font-family: 'Popmpins', sans-serif;
 }
- .cover{
-    background:url(../images/contactbanner.jpg);
-    background-repeat: no-repeat; 
-    background-size:cover;
-    height:50vh;
-}
 /* .cover_title h1{
     font-family: fantasy;
     color: #000000;
@@ -63,7 +57,7 @@ body{
 #mainbanner .item .txt_overlay{
     position: absolute;
     margin-top: -20%;
-    margin-left: 10%;
+    margin-left: 15%;
     color: white;
 }
 .txt_overlay h1{
@@ -130,19 +124,37 @@ section{
     font-size: 250%;
     padding-bottom: 10%;
 }
-#ourteam h1{
+#our_team h1{
     color: black;
     text-align: center;
     font-size: 350%;
     font-weight: bold;
     margin-bottom: 7%;
 }
- .card-img-top{
+#our_team .card-img-top{
     border-radius: 0%;
 }
- .card{
+#our_team .card{
     border-radius: 0%;
+    margin-top: 9%;
 } 
+@media only screen and (min-width: 992px){
+    #our_team .card{
+        margin-top: 0%!important;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    #our_team_first_card,
+    #our_team_second_card{
+        margin-top: 0%!important;
+    }
+}
+@media only screen and (max-width: 767px){
+    #our_team_first_card{
+        margin-top: 0%!important;
+    }
+}
 .practice_team:hover{
     box-shadow: 2px 2px 5px 2px #867dff38;
 }
@@ -153,7 +165,37 @@ section{
 .member_name h6{
     text-align: center;
 }
-
+#latest_blogs_cover{
+    background:url(../images/blog-banner.jpg);
+    background-repeat: no-repeat; 
+    background-size:cover;
+    height:50vh;
+}
+@media only screen and (min-width: 992px){
+    #blog_first_card,
+    #blog_second_card,
+    #blog_third_card {
+        margin-top: 0%!important;
+    }
+}
+@media only screen and (min-width: 768px){
+    #blog_first_card,
+    #blog_second_card{
+        margin-top: 0%!important;
+    }
+}
+@media only screen and (max-width: 767px){
+    #blog_first_card{
+        margin-top: 0%!important;
+    }
+}
+.blogs .card{
+    border-radius: 0%;
+    margin-top: 9%;
+}
+.blogs .card-img-top{
+    border-radius: 0%;
+}
 #latest_blogs h1{
     color: black;
     text-align: center;
@@ -233,7 +275,6 @@ section{
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
-    border-radius: 30%;
     font-size: 400%;
 }
 .playicon:hover{
@@ -249,6 +290,12 @@ section{
     font-size: 350%;
     font-weight: bold;
     margin-bottom: 7%;
+}
+#contact_us_cover{
+    background:url(../images/contactbanner.jpg);
+    background-repeat: no-repeat; 
+    background-size:cover;
+    height:50vh;
 }
 #contact_us h2{
     color: #6aadab !important;
@@ -324,6 +371,7 @@ footer{
     text-align: center;
 }
 .logo{
+    margin-top: 6%;
     width: 100%;
 }
 .logo img{
@@ -346,7 +394,7 @@ footer{
 }
 .footer_headings h1{
     color: #FEFFFF !important;
-    padding-left: 9%;
+    padding-left: 41px;
     margin-top: 20%;
     margin-bottom: 0%;
     font-weight: bold;
@@ -371,7 +419,7 @@ footer{
     color: #fff;
 }
 .copyright p{
-    margin-top: 13px;
+    margin-top: 17px;
     margin-bottom: 0%;
 }
 .icon-color{
