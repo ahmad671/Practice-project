@@ -406,11 +406,11 @@ footer{
 }
 .logo img{
     width: 100%;
-    padding-left: 12%;
     margin-bottom: -13%;
 }
 .logo ul{
     list-style-type: none;
+    padding-left: 0%;
 }
 .logo li p{
     color: #feffff !important;
@@ -472,6 +472,7 @@ footer{
 .icons ul{
     list-style-type: none;
     margin-top: 15px;
+    padding-left: 0%;
 }
 .icons li{
     padding: 0.5%;
