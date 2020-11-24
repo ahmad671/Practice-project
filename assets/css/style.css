@@ -241,8 +241,139 @@ section{
     color: #2b7a78;
     font-weight: bold;
 }
-.comments a{
+/* <
+           -------------------Read More Blog button-------------------> 
+ */
+ .read_more_area{
+     padding: 20px;
+    box-shadow: 2px 2px 5px 2px #867dff38;
+ }
+.read_more_text h3{
+    color: #2b7a78;
+    font-weight: bold;
+}
+.read_more_comment{
     float: right;
+}
+.read_more_comment a{
+    text-decoration: none ;
+    color: #6c757d;
+}
+.blockquote{
+    margin-top: 6%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    padding: 2% 4%;
+}
+.blockquote p{
+    margin-bottom: 0%;
+}
+.social{
+    padding: 1% 1%;
+}
+.social_icons ul{
+    list-style-type: none;
+}
+.social_icons li{
+    display: inline;
+}
+.social_icons_list i{
+    color: #52b3af;
+}
+.social_tags ul{
+    list-style-type: none;
+    text-align: right;
+    margin-top: -5%;
+    margin-bottom: 0%;
+    margin-right: 4%;
+}
+.social_tags li{
+    display: inline;
+}
+.social_tags li a{
+    text-decoration: none;
+    color: #52b3af;
+}
+.total_comments a{
+    text-decoration: none;
+    color: #6c757d;
+}
+.media-body h5 a{
+    color: #6c757d;
+    text-decoration: none;
+}
+.reply_button a{
+    color: #6c757d;
+}
+.comment_form .form-control{
+    border-radius: 0%;
+    margin-top: 2%;
+}
+.comment_form .high{
+    height: 55px;
+}
+.comment_form .btn{
+    margin-top: 4%;
+    background-color: #6aadab;
+    border: none;
+    border-radius:0%;
+    padding: 1% 2%;
+    color: white;
+    text-align: center;
+    font-size: 100%;
+}
+@media only screen and (max-width: 992px){
+    .social_tags ul{
+        margin-top: -8%;
+    }
+}
+.search_box .search{
+    padding: 5% 5%;
+    border-radius: 0%;
+    border: none;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    background-color: whitesmoke;
+}
+.search_box i{
+    color: #6aadab;
+    position: absolute;
+    top: 36px;
+    right: 30px;
+}
+.categories ul{
+    padding-left: 0%;
+    list-style-type: none;
+}
+.categories li a{
+    text-decoration: none;
+    color: #6aadab;
+}
+.categories li{
+    margin-top: 3%;
+}
+.popular_tags .tags a{
+    text-decoration: none;
+    color: #6aadab;
+}
+.popular_tags .tags{
+    text-align: center;
+}
+.popular_posts h6{
+    font-weight: bold;
+}
+/* 
+           <----------------------------------END------------------------------> 
+*/
+#latest_blogs .comments a{
+    float: right;
+}
+.read_more_img{
+    width: 100%;
+}
+.read_more_img img{
+    width: 100%;
 }
 #features{
     background-color: #1b1a1a;
