@@ -1,6 +1,12 @@
 html{
     scroll-behavior: smooth;
 }
+@media only screen and (max-width: 767px){
+    #mainbanner{
+        visibility: hidden;
+        display: none;
+    }
+}
 body{
     font-family: 'Popmpins', sans-serif;
 }
@@ -188,11 +194,12 @@ section{
 .member_name h6{
     text-align: center;
 }
-#latest_blogs_cover{
-    background:url(../images/blog-banner.jpg);
+#latest_blogs_cover img{
+    max-width: 100%;
+    height:auto;
     background-repeat: no-repeat; 
     background-size:cover;
-    height:50vh;
+
 }
 @media only screen and (min-width: 992px){
     #blog_first_card,
@@ -325,6 +332,11 @@ section{
 @media only screen and (max-width: 992px){
     .social_tags ul{
         margin-top: -8%;
+    }
+}
+@media only screen and (max-width: 440px){
+    .social_tags ul{
+        margin-top: -4%;
     }
 }
 .search_box .search{
