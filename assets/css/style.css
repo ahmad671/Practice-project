@@ -121,6 +121,7 @@ section{
 #services h5{
     color: #FEFFFF !important;
     padding-bottom: 8%;
+    padding-top: 8%;
     font-weight: bold;
 }
 .services_box{
@@ -427,10 +428,12 @@ section{
 }
 .color-icon{
     color: #6aadab;
+    font-size: 300%;
+    margin-top: 10%;
 }
-.wwdo i{
+.ser-icon{
     font-size: 160%;
-    padding-right: 4%;
+    margin-right: 5%;
     color: #6aadab !important;
 }
 .wwdo a{
